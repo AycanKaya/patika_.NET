@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Aycan\\Desktop\\pratikler\\If-ElseIf-Ternary-If\\If-ElseIf-Ternary-If.csproj": {}
+    "C:\\Users\\Aycan\\Desktop\\pratikler\\Karar_Yapıları\\Karar_Yapıları.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Aycan\\Desktop\\pratikler\\If-ElseIf-Ternary-If\\If-ElseIf-Ternary-If.csproj": {
+    "C:\\Users\\Aycan\\Desktop\\pratikler\\Karar_Yapıları\\Karar_Yapıları.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aycan\\Desktop\\pratikler\\If-ElseIf-Ternary-If\\If-ElseIf-Ternary-If.csproj",
-        "projectName": "If-ElseIf-Ternary-If",
-        "projectPath": "C:\\Users\\Aycan\\Desktop\\pratikler\\If-ElseIf-Ternary-If\\If-ElseIf-Ternary-If.csproj",
+        "projectUniqueName": "C:\\Users\\Aycan\\Desktop\\pratikler\\Karar_Yapıları\\Karar_Yapıları.csproj",
+        "projectName": "Karar_Yapıları",
+        "projectPath": "C:\\Users\\Aycan\\Desktop\\pratikler\\Karar_Yapıları\\Karar_Yapıları.csproj",
         "packagesPath": "C:\\Users\\Aycan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aycan\\Desktop\\pratikler\\If-ElseIf-Ternary-If\\obj\\",
+        "outputPath": "C:\\Users\\Aycan\\Desktop\\pratikler\\Karar_Yapıları\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Aycan\\AppData\\Roaming\\NuGet\\NuGet.Config",
