@@ -30,9 +30,30 @@
             Console.WriteLine("i");
         }
 
+        //********* While Loop ************
 
+        int counter=Console.ReadLine();
+        int control=0;
+        int sum=0;
+        while (control<=counter){
+            sum+=control;
+            control++;
+        }Console.WriteLine(sum/counter);
 
+        string[] cars={"BMW","Toyota","Ford","Nissan"};
+        foreach(var car in cars){
+            Console.WriteLine(car);
         }
+
+
+
+
+
+       }
+
+
+
+
 
 
 
