@@ -19,6 +19,9 @@ namespace Karar_Yapıları{
             Console.WriteLine(sonuc);
 
         }
+
+
+        
     }
 
 }
