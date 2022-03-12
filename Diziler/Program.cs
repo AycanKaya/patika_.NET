@@ -1,5 +1,5 @@
 ﻿using System;
-namespace diziler {
+namespace pratikler {
     class Program{
         public static void Main(string[] args){
             string[] colors=new String[5];
