@@ -1,5 +1,5 @@
 ﻿namespace pratikler{
-     class Program {
+ class Program {
          static void  Main(string[] args){
             
             int x=2;
@@ -17,6 +17,16 @@
             methods.write(Convert.ToString(x+y));
 
 
+            methods.Sum(2,3,out int result2);
+            Console.WriteLine(result2);
+
+            //Overloading 
+
+            string s="AYCAN";
+            int num=99;
+            methods.write(num);
+
+
 
 
         }
@@ -25,6 +35,28 @@
         }
     }
     class Methods {
+        public void write(string s){
+            Console.WriteLine(s);        
+            }
+
+            public void write(int s){
+                Console.WriteLine(s);
+            }
+            public void write(string s1, string s2){
+                Console.WriteLine(s1+s2);
+            }
+
+            public int increaseSum(ref int x, ref int y){
+                x+=1;
+                y+=1;
+                return x+y;
+
+            }
+
+            public  void Sum(int a, int b, out int result){
+                result=a+b;
+            }
+    }
         public void write(string s){
             Console.WriteLine(s);        
             }
