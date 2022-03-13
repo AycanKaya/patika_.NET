@@ -1,5 +1,15 @@
 ﻿using System;
 namespace Sınıf_Yapısı{
+/*
+ Public : Her yerden erişilebilir.
+
+ Private : Sadece tanımlandığı sınıf içerisinden erişilebilir.
+
+ Internal : Sadece bulunduğu proje içerisinden erişilebilir
+ 
+ Protected : Sadece tanımlandığı sınıfta ya da o sınıfı miras alan sınıflardan erişilebilir.
+*/
+
     class Program{
         public static void Main(string[] args){
             Worker w1 = new Worker();
