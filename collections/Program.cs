@@ -66,6 +66,13 @@
                 Age = 18
             });
         }
+         public static void PrintArray<X>(X[] arr){
+            foreach(var i in arr){
+            Console.WriteLine(i);
+        }
+    }
+    
+
 
     }
     public class User
