@@ -57,16 +57,27 @@
                 result=a+b;
             }
     }
-        public void write(string s){
-            Console.WriteLine(s);        
-            }
+        
+    
 
-            public int increaseSum(ref int x, ref int y){
-                x+=1;
-                y+=1;
-                return x+y;
 
-            }
+     public static class Extension{
+
+        public static bool CheckSpaces(this string name){
+            return name.Contains(" ");
+        }
+        public static string RemoveWhiteSpaces(this string name){
+            string[] list=name.Split(" ");
+            return string.Join("",list);
+        }
+
+        public static string MakeUpperCase(this string param){
+            return param.ToUpper();
+
+        }
+        public static string MakeLowerCase(this string param){
+            return param.ToLower();
+        }
     }
     
 }
